@@ -1,0 +1,209 @@
+.container{
+    margin-top: 2px;
+
+    background-color:floralwhite;
+
+} 
+.img-thumbnail{
+    width: 60%;
+}
+
+.jumbotron{
+    margin-top: 105px;
+    padding-top: 60px;
+
+    background-color: beige;
+
+   background-size: 100% 100%;
+    /*text-decoration: capitalize;*/
+}
+
+.navBar{
+  
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+	background-color: #19112e;
+	list-style: none;
+	height: 90px;
+  /*display: flex;*/
+}
+
+
+
+
+.navBar ul{
+  list-style:none;
+   
+  }
+
+  .navBar li{
+    /*float:left;*/
+    height: 40px;
+      line-height: 50px;
+      font-weight: 700;
+ 
+    margin-left: 10%;
+    margin-right: 5%;
+    display:inline-block;
+      /*text-decoration: capitalize;*/
+  }
+
+
+.navBar a{
+	color:#e0daf0;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: medium;
+    padding: 5px;
+}
+
+.navBar a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+    
+}
+
+
+.navBar a:hover{
+
+  text-decoration: none;
+     background-color: #6c86a8;
+  
+  color: #fff;
+    
+
+}
+
+@media (min-width: 750px) {
+  .navBar li {
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  .navBar li {
+    display: inline-block;
+    margin-right: -4px;
+      /*margin-top: -2.5em;*/
+  }
+}
+
+
+  #heading, #subheading{
+      margin-top: 2%;
+    margin-left:10%;
+    text-align:left;
+    margin-right: 10%;
+      font-style: italic;
+      font-family: cursive;
+  }
+
+#projects{
+
+   background-size: 100% 100%;
+    margin-top: 150px;
+    position: relative;
+   
+}
+#about{
+     background-color: beige;
+}
+#hiddendiv{
+
+   background-size: 100% 100%;
+
+}
+
+
+.col-md-3{
+    margin: 1%;
+    color: aliceblue;
+    height: 20%;
+    padding: 6%;
+    color: black;
+    border:1px solid chocolate;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 10px;
+}
+h3, p{
+    color: darkslategray;
+    text-align: center;
+}
+#hobbies{
+    margin-top: 100px;
+}
+.carousel{
+    background: #2f4357;
+    margin-top: 70px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; 
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.carouselTag{
+    position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+}
+
+.carousel-caption h1 {
+    display:table-cell;
+    text-align:left;
+    font-family: cursive;
+    font-style: italic;
+    color: brown;
+}
+
+#hidden1 {
+    position :relative;
+    top: -3px;
+    z-index: -2;
+
+}
+
+#hidden2 {
+    position :relative;
+    top: -3px;
+    z-index: -2;
+
+}
+#fb, #git, #lkdn, #ytb, #ggle{
+    color: #303f4d;
+}
+
+
+#hidden3 {
+    position :relative;
+    top: -3px;
+    z-index: -2;
+
+}
+
+#connect{
+    margin-top: 200px;
+}
+.section3{
+    text-shadow: 1px 1px #888888;
+}
+
+
+.social a {
+font-size: 5em;
+padding: 3%;
+}
